@@ -58,9 +58,9 @@ def dfs_missionaries_cannibals(start_state, goal_state):
 
 
 if __name__ == "__main__":
-    start = (3, 3, 0)
-    goal = (0, 0, 1)
-
+    start = (3, 3, 0)  
+    goal = (0, 0, 1)   
+    
     solution = dfs_missionaries_cannibals(start, goal)
 
     print("Solution path:")
